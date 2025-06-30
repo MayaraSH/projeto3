@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Bella Vista</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho" >
+        <div class="container">
+            <a href="#home" class="navbar-brand m-0 section-title">Casa Bella Vista</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon text-colored"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a casa</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ocasioes" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Ocasiões</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#espaco" class="nav-link">
+                            <i class="bi bi-search"></i>
+                            Nosso espaço</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="home">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://images.unsplash.com/photo-1607727607925-11da885bd013?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foto do espaço interno do restuarante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://images.unsplash.com/photo-1531087247207-c4f95c7c248e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Duas taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://images.unsplash.com/photo-1630247008567-9c3facb9276c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Uma mesa com comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <spam class="carousel-control-prev-icon"></spam>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <spam class="carousel-control-next-icon"></spam>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" id="sobre">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://cdn.pixabay.com/photo/2021/08/29/14/42/assisi-6583460_1280.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a casa</span></h2>
+                            <p>
+                                A sua casa perfeita longe de casa. Conforto, charme e uma vista de tirar o fôlego, em um refúgio que combina a beleza da tradição com o aconchego que você merece. Viva momentos inesquecíveis em meio à paz, à natureza e ao charme da cidade medieval de Assis.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">a localização</span></h3>
+                            <p>
+                                Localizada nas colinas tranquilas de Assisi e rodeada pela natureza, a poucos minutos: 
+                            </p>
+                            <ul>
+                                <li>Centro histórico</li>
+                                <li>Estação de trem</li>
+                                <li>Porciúncula</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ocasioes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://images.unsplash.com/photo-1577896849786-738ed6c78bd3?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Família" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-5">
+                            <i class="bi bi-house-heart"></i>
+                            Perfeito para famílias</h3>
+                        <p>Espaço, segurança e conforto para quem viaja com crianças e quer se sentir em casa.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://images.unsplash.com/photo-1541089404510-5c9a779841fc?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Casal" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-5">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Ideal para lua de mel</h3>
+                        <p>Romance e privacidade com uma vista inesquecível e pores do sol cinematográficos.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://images.unsplash.com/photo-1569617084133-26942bb441f2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Amigos" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-5">
+                            <i class="bi bi-people-fill"></i>
+                            Incrível para amigos</h3>
+                        <p>O lugar ideal para viver bons momentos, pelegrinar, rir e relaxar com quem você ama.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="espaco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">espaço</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-espaco">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sala" class="fw-bold text-start nav-link text-colored active">Sala de Estar</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cozinha" class="fw-bold text-start nav-link text-colored">Cozinha</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sacada" class="fw-bold text-start nav-link text-colored">Sacada</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#banheiros" class="fw-bold text-start nav-link text-colored">Banheiros</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#siute" class="fw-bold text-start nav-link text-colored">Suíte</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#quarto1" class="fw-bold text-start nav-link text-colored">Quarto 1</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#quarto2" class="fw-bold text-start nav-link text-colored">Quarto 2</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="sala" > 
+                                <div class="row">
+                                    <p class="mt-2">Ampla, com sofá confortável, lareira e muita luz natural.</p>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://plus.unsplash.com/premium_photo-1676823547752-1d24e8597047?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sala de estar"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://plus.unsplash.com/premium_photo-1676823547752-1d24e8597047?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sala de estar"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://plus.unsplash.com/premium_photo-1676823547752-1d24e8597047?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sala de estar"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cozinha"> 
+                                <div class="row">
+                                    <p class="mt-2">Totalmente equipada, perfeita para preparar qualquer refeição.</p>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cozinha"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cozinha"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1748&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cozinha"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sacada"> 
+                                <div class="row">
+                                    <p class="mt-2">Espaço externo com mesa para refeições ao ar livre.</p>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://blog.construtoralaguna.com.br/wp-content/uploads/2021/04/Arquitetura-inovadora-nos-lancamentos-residenciais-LAGUNA.jpg" alt="Sacada"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://blog.construtoralaguna.com.br/wp-content/uploads/2021/04/Arquitetura-inovadora-nos-lancamentos-residenciais-LAGUNA.jpg" alt="Sacada"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://blog.construtoralaguna.com.br/wp-content/uploads/2021/04/Arquitetura-inovadora-nos-lancamentos-residenciais-LAGUNA.jpg" alt="Sacada"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="banheiros"> 
+                                <div class="row">
+                                    <p class="mt-2">Dois amplos banheiros, com chuveiro moderno e iluminação natural.</p>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Banheiros"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Banheiros"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Banheiros"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="siute"> 
+                                <div class="row">
+                                    <p class="mt-2">Cama queen, banheiro privativo e varanda com vista panorâmica.</p>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Suíte"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Suíte"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Suíte"/>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="tab-pane" id="quarto1"> 
+                                <div class="row">
+                                    <p class="mt-2">Aconchegante, com cama de casal e vista para o jardim.</p>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Quarto de casal"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Quarto de casal"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Quarto de casal"/>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="tab-pane" id="quarto2"> 
+                                <div class="row">
+                                    <p class="mt-2">Duas camas de solteiro, perfeito para amigos ou crianças.</p>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1673687782286-674e29c9bf9e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Quarto com camos de solteiro"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1673687782286-674e29c9bf9e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Quarto com camos de solteiro"/>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-3" src="https://images.unsplash.com/photo-1673687782286-674e29c9bf9e?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Quarto com camos de solteiro"/>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored" >conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form> 
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required placeholder="Nome Sobrenome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control" required placeholder="email@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" placeholder="+00 000 000 0000">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="nome" class="mensagem form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row mt-4 pb-3">
+                            <h3 class="section-title fs-5 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links" >
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="section-title fs-5 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço</h3>
+                            <p>
+                                Via Leone IX, 12 - Assis (PG)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
