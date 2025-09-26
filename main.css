@@ -101,9 +101,3 @@ button {
         transform: scale(2);
     }
 }
-
-@media (max-width:1023px){
-        .img-popup:hover {
-        transform: scale(2.5);
-    }
-}
