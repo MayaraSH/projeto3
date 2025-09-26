@@ -1,14 +1,17 @@
 $(document).ready(function(){
 
+    // Máscara do telefone
     $('#telefone').mask('(000) 00000 - 0000', { 
-        placeholder: ('(DDD) 12345-6789') 
+        placeholder: '(DDD) 12345-6789' 
     });
 
+    // Apenas letras no nome
     $('#nome').on('input', function() {
         let valor = $(this).val();
         $(this).val(valor.replace(/[^a-zA-ZÀ-ÿ\s]/g, ''));
     });
 
+    // Validação do formulário
     $('form').validate({
         rules: {
             nome: { 
@@ -28,14 +31,16 @@ $(document).ready(function(){
         invalidHandler: function (evento, validador) {
             alert("Por favor, preencha os campos para prosseguir com o envio da mensagem!");
         }
+    });
 
-            const modalImage = document.getElementById('modalImage');
+    // Lightbox para as imagens
+    const modalImage = document.getElementById('modalImage');
     const images = document.querySelectorAll('.img-popup');
 
     images.forEach(img => {
         img.addEventListener('click', () => {
-        modalImage.src = img.src; // mostra a imagem clicada no modal
+            modalImage.src = img.src; 
         });
     });
-    });
+
 });
