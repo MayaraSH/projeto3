@@ -3,12 +3,12 @@ body {
 }
 
 .navbar {
-    background-color: #4d382f;
+    background-color: #e28c67;
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
-    color: #4d382f;
+    color: #e28c67;
 }
 
 #cabecalho .nav .nav-link,
@@ -17,6 +17,7 @@ body {
 .nav-espaco .nav-link.active:hover {
     color: #fff;
 }
+
 
 .carousel-item img {
     height: 600px;          
@@ -40,17 +41,17 @@ body {
 }
 
 .text-colored {
-    color: #4d382f;
+    color: #e28c67;
 }
 
 .nav-espaco .nav-link.active,
 #fale-conosco button {
-    background-color: #4d382f;
+    background-color: #e28c67;
     color: #fff;
 }
 
 .nav-espaco .nav-link:hover {
-    color: #4d382f;
+    color: #e28c67;
 }
 
 .social-links li {
@@ -63,7 +64,7 @@ body {
 }
 
 .footer {
-    background-color: #4d382f;
+    background-color: #e28c67;
     font-size: 0.9em; 
     color: #fff;   
     text-align: center;
@@ -80,3 +81,4 @@ body {
         height: 400px;
     }
 }
+

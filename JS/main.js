@@ -28,5 +28,14 @@ $(document).ready(function(){
         invalidHandler: function (evento, validador) {
             alert("Por favor, preencha os campos para prosseguir com o envio da mensagem!");
         }
+
+            const modalImage = document.getElementById('modalImage');
+    const images = document.querySelectorAll('.img-popup');
+
+    images.forEach(img => {
+        img.addEventListener('click', () => {
+        modalImage.src = img.src; // mostra a imagem clicada no modal
+        });
+    });
     });
 });

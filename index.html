@@ -145,18 +145,36 @@
                     <div class="col-md-10">
                         <div class="tab-content">
                             <div class="tab-pane active" id="sala" > 
-                                <div class="row">
-                                    <p class="mt-2">Ampla, com sofá confortável, lareira e muita luz natural.</p>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 pb-3" src="./images/image2.png" alt="Foto da sala de estar"/>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 pb-3" src="./images/image3.png" alt="Foto da sala de estar"/>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 pb-3" src="./images/image4.png" alt="Foto da sala de estar"/>
-                                    </div>
+
+
+                            <div class="row">
+                            <p class="mt-2">Ampla, com sofá confortável, lareira e muita luz natural.</p>
+
+                            <div class="col-md-3 mb-3">
+                                <img src="./images/image2.png" class="d-block w-100 pb-3 img-popup" data-bs-toggle="modal" data-bs-target="#imageModal" alt="Foto da sala de estar"/>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <img src="./images/image3.png" class="d-block w-100 pb-3 img-popup" data-bs-toggle="modal" data-bs-target="#imageModal" alt="Foto da sala de estar"/>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <img src="./images/image4.png" class="d-block w-100 pb-3 img-popup" data-bs-toggle="modal" data-bs-target="#imageModal" alt="Foto da sala de estar"/>
+                            </div>
+                            </div>
+
+                            <!-- Modal para o popup -->
+                            <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content bg-transparent border-0">
+                                <div class="modal-body p-0">
+                                    <img src="" id="modalImage" class="w-100" alt="Imagem ampliada"/>
                                 </div>
+                                </div>
+                            </div>
+                            </div>
+
+
                             </div>
                             <div class="tab-pane" id="cozinha"> 
                                 <div class="row">
@@ -310,7 +328,6 @@
             </div>
         </section>
     </div>
-    
     <footer>
         <div class="footer">
             <p>
